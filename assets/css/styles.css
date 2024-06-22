@@ -398,10 +398,10 @@ body.dark-theme {
 
 .home__img {
   position: absolute;
-  width: 250px;
+  width: 300px;
   height: 300px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 125px 125px 22px 22px;
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
