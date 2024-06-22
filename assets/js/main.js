@@ -124,3 +124,18 @@ sr.reveal(`.home__images`, { delay: 800, origin: 'bottom' })
 sr.reveal(`.logos__img`, { interval: 100 })
 sr.reveal(`.value__images, .contact__content`, { origin: 'left' })
 sr.reveal(`.value__content, .contact__images`, { origin: 'right' })
+
+// contact
+document.getElementById('consultForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    
+    var whatsappNumber = '6285266745599';
+    
+    var userInput = document.getElementById('consultInput').value.trim();
+    
+    var whatsappMessage = encodeURIComponent(userInput);
+    
+    var whatsappUrl = 'https://wa.me/' + whatsappNumber + '?text=' + whatsappMessage;
+    
+    window.location.href = whatsappUrl;
+});
