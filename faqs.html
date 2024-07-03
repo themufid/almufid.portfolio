@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/boxicons/boxicons/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <title>Portfolio Website Almufid</title>
 </head>
 
@@ -23,44 +21,38 @@
                 <img src="/assets/img/logo-almufid.png" alt="Almufid Logo" class="logo-image">
                 <span class="logo-text"></span>
             </a>
-            
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
+                        <a href="https://almufid.tech" class="nav__link">
                             <i class='bx bx-home-alt-2'></i>
                             <span>Home</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
-                        <a href="/about" class="nav__link">
+                        <a href="/about" class="nav__link active-link">
                             <i class='bx bx-info-circle'></i>
                             <span>About</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="https://medium.com/@almufid.blog" class="nav__link">
                             <i class='bx bxl-blogger'></i>
                             <span>Blog</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="/learn" class="nav__link">
                             <i class='bx bx-book-content'></i>
                             <span>Learn</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="https://almufid.shop" class="nav__link">
                             <i class='bx bxl-shopify'></i>
                             <span>Shop</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="/contact" class="nav__link">
                             <i class='bx bx-phone'></i>
@@ -69,156 +61,16 @@
                     </li>
                 </ul>
             </div>
-
             <i class='bx bx-moon change-theme' id="theme-button"></i>
-
         </nav>
     </header>
 
-    <main class="main">
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <h1 class="home__title">
-                        Whispers of Vision <br> Tales of Wonder
-                    </h1>
-                    <p class="home__description">
-                        Set no boundaries for yourself. 
-                        Many individuals restrict their potential 
-                        to what they believe is within reach. 
-                        Your mind is capable of taking you as far as you dare to venture. 
-                        Always keep in mind, if you believe it, you can achieve it.
-                    </p>
-
-                    <form id="consultForm" class="home__search">
-                        <i class='bx bxs-phone'></i>
-                        <input id="consultInput" type="text" placeholder="Your Message..." class="home__search-input">
-                        <button type="submit" class="button">Click Here</button>
-                    </form>
-
-                    <div class="home__value">
-                        <div>
-                            <h1 class="home__value-number">
-                                P <span>++</span>
-                            </h1>
-                            <span class="home__value-description">
-                                Programming <br> 
-                            </span>
-                        </div>
-                        <div>
-                            <h1 class="home__value-number">
-                                E <span>++</span>
-                            </h1>
-                            <span class="home__value-description">
-                                Education <br> 
-                            </span>
-                        </div>
-                        <div>
-                            <h1 class="home__value-number">
-                                T <span>++</span>
-                            </h1>
-                            <span class="home__value-description">
-                                Technology <br>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="home__images">
-                    <div class="home__orbe"></div>
-
-                    <div class="home__img">
-                        <img src="assets/img/header.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    <main>
         <section class="value section" id="value">
             <div class="value__container container grid">
-                <div class="value__content">
-                    <div class="value__data">
-                        <span class="section__subtitle">Our Partner</span>
-                        <h2 class="section__title">
-                            Value We Give To You<span>.</span>
-                        </h2>
-                        <p class="value__description">
-                            We always ready to help by providing the best service for you.
-                            We believe a good information to your personal development and 
-                            colaboration with partner for success a digital business.
-                        </p>
-                        <section class="logos section">
-                            <div class="logos__container container grid">
-                                <div class="logos__img">
-                                    <img src="assets/img/heroic.png" alt="Jasa Website">
-                                </div>
-                                <div class="logos__mmt">
-                                    <img src="assets/img/logo-muana.png" alt="Jasa Bimbel">
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+                <div class="value__images">
+                    <div class="value__orbe"></div>
                 </div>
-            </div>
-        </section>
-
-       <section class="contact section" id="contact">
-	 <div class="contact__container container grid">
-	   <div class="contact__content">
-		<h2 class="section__title">
-		 Labels<span>.</span>
-		 </h2>
-		 <p class="contact__description">
-		  All articles for you
-		</p>
-	   </div>
-	   <div class="contact__card">				   <div class="contact__card-box">
-	       <a href="/" class="contact__card-link">
-	       <i class='bx bx-label'></i>  15
-	     <div>
-		<p class="contact__card-description">Education</p>
-	     </div>
-	      </a>
-	    </div>
-
-	   <div class="contact__card-box">
-	    <a href="/" class="contact__card-link">
-	    <i class='bx bx-label'></i>  10
-            <div>
-	   <p class="contact__card-description">
-	    Technology
-	   </p>
-	   </div>
-	   </a>
-	</div>
-        <div class="contact__card-box">
-	  <a href="/" class="contact__card-link">
-	  <i class='bx bx-label'></i>  5
-	<div>
-	<p class="contact__card-description">
-	Programming
-	 </p>
-	 </div>
-	 </a>
-	</div>
-
-	 <div class="contact__card-box">
-	 <a href="/" class="contact__card-link">
-	 <i class='bx bx-label'></i>  2
-	<div>
-	<p class="contact__card-description">
-	 Promotion
-	</p>
-	</div>
-	</a>
-	</div>
-	</div>
-        </div>
-       </section>
-
-
-        <section class="value section" id="value">
-            <div class="value__container container grid">
                 <div class="value__accordion">
                     <h2 class="section__title">
                         Frequently Asked Questions (FAQs)<span>.</span>
@@ -362,137 +214,24 @@
                 </div>
             </div>
         </section>
-
-        <section class="subscribe section">
-            <div class="subscribe__container container">
-                <h1 class="subscribe__title">
-                    Get Started with Almufid
-                </h1>
-                <p class="subscribe__description">
-                    We will assist you in achieving goals in the real and digital world.
-                </p>
-                <a href="https://wa.me/6285266745599" class="button subscribe__button">
-                    Consult Now
-                </a>
-            </div>
-        </section>
     </main>
 
     <footer class="footer section">
         <div class="footer__container container grid">
-            <div>
-                <a href="https://almufid.tech" class="footer__logo">
-                    Almufid </i>
-                </a>
-                <p class="footer__description">
-                    Let's learn and collaborate with us. <br>
-                    I'm currently dreaming and planning <br>
-                    for the future to change the world <br>
-                    through education and technology.
-                </p>
-            </div>
-
             <div class="footer__content">
-                <div>
-                    <h3 class="footer__title">
-                        About
-                    </h3>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="https://rodhi.vercel.app" class="footer__link">Profile</a>
-                        </li>
-                        <li>
-                            <a href="/learn" class="footer__link">Learn</a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@almufid.blog" class="footer__link">News & Blog</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="footer__title">
-                        Company
-                    </h3>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">How We Work?</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Services</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Shop</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="footer__title">
-                        Support
-                    </h3>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">FAQs</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Support center</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="footer__title">
-                        Follow us
-                    </h3>
-
-                    <ul class="footer__social">
-                        <a href="https://www.x.com/themufiddev" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-twitter'></i>
-                        </a>
-                        <a href="https://www.instagram.com/themufiddev" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-instagram-alt'></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/rodhifaisalmufid" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-linkedin'></i>
-                        </a>
-                        <a href="https://www.github.com/themufid" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-github'></i>
-                        </a>
-                    </ul>
-                </div>
+                <a href="#" class="footer__logo">
+                    <img src="/assets/img/logo-almufid.png" alt="Almufid Logo" class="logo-image">
+                    <span class="logo-text">almufid</span>
+                </a>
+                <p class="footer__description">Connecting businesses with Almufid</p>
             </div>
         </div>
-
-        <div class="footer__info container">
-            <span class="footer__copy">
-                &#169; Almufid Official. All rigths reserved
-            </span>
-
-            <div class="footer__privacy">
-                <a href="#">Disclaimer</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Condition</a>
-                <a href="#">Sitemap</a>
-            </div>
-        </div>
+        <p class="footer__copy">&#169; Almufid. All rights reserved</p>
     </footer>
 
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class='bx bx-chevrons-up'></i>
-    </a>
-
-    <script src="assets/js/scrollreveal.min.js"></script>
-
     <script src="assets/js/swiper-bundle.min.js"></script>
-
     <script src="assets/js/main.js"></script>
 </body>
 
 </html>
+
