@@ -128,7 +128,7 @@ sr.reveal(`.value__content, .contact__images`, { origin: 'right' })
 // contact
 document.getElementById('consultForm').addEventListener('submit', function(event) {
     event.preventDefault(); 
-    var whatsappNumber = '6285266745599';
+    var whatsappNumber = '6282144137914';
     var userInput = document.getElementById('consultInput').value.trim();
     var whatsappMessage = encodeURIComponent("Consultation request: " + userInput);
     var whatsappUrl = 'https://wa.me/' + whatsappNumber + '?text=' + whatsappMessage;
